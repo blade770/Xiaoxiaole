@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A13FDC5D1CCC5F7D00700B23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A13FDC5C1CCC5F7D00700B23 /* main.m */; };
+		A13FDC601CCC5F7D00700B23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13FDC5F1CCC5F7D00700B23 /* AppDelegate.m */; };
+		A13FDC631CCC5F7D00700B23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13FDC621CCC5F7D00700B23 /* ViewController.m */; };
+		A13FDC661CCC5F7D00700B23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13FDC641CCC5F7D00700B23 /* Main.storyboard */; };
+		A13FDC681CCC5F7D00700B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13FDC671CCC5F7D00700B23 /* Assets.xcassets */; };
+		A13FDC6B1CCC5F7D00700B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13FDC691CCC5F7D00700B23 /* LaunchScreen.storyboard */; };
+		A13FDC761CCC5F7D00700B23 /* xiaoxiaoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13FDC751CCC5F7D00700B23 /* xiaoxiaoleTests.m */; };
+		A13FDC811CCC5F7D00700B23 /* xiaoxiaoleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13FDC801CCC5F7D00700B23 /* xiaoxiaoleUITests.m */; };
+		A13FDC8F1CCC60BA00700B23 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = A13FDC8E1CCC60BA00700B23 /* icon */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A13FDC721CCC5F7D00700B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13FDC501CCC5F7D00700B23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13FDC571CCC5F7D00700B23;
+			remoteInfo = xiaoxiaole;
+		};
+		A13FDC7D1CCC5F7D00700B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13FDC501CCC5F7D00700B23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13FDC571CCC5F7D00700B23;
+			remoteInfo = xiaoxiaole;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A13FDC581CCC5F7D00700B23 /* xiaoxiaole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xiaoxiaole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13FDC5C1CCC5F7D00700B23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A13FDC5E1CCC5F7D00700B23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A13FDC5F1CCC5F7D00700B23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A13FDC611CCC5F7D00700B23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A13FDC621CCC5F7D00700B23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A13FDC651CCC5F7D00700B23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A13FDC671CCC5F7D00700B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A13FDC6A1CCC5F7D00700B23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A13FDC6C1CCC5F7D00700B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13FDC711CCC5F7D00700B23 /* xiaoxiaoleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiaoxiaoleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13FDC751CCC5F7D00700B23 /* xiaoxiaoleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaoxiaoleTests.m; sourceTree = "<group>"; };
+		A13FDC771CCC5F7D00700B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13FDC7C1CCC5F7D00700B23 /* xiaoxiaoleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiaoxiaoleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13FDC801CCC5F7D00700B23 /* xiaoxiaoleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaoxiaoleUITests.m; sourceTree = "<group>"; };
+		A13FDC821CCC5F7D00700B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13FDC8E1CCC60BA00700B23 /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A13FDC551CCC5F7D00700B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13FDC6E1CCC5F7D00700B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13FDC791CCC5F7D00700B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A13FDC4F1CCC5F7D00700B23 = {
+			isa = PBXGroup;
+			children = (
+				A13FDC5A1CCC5F7D00700B23 /* xiaoxiaole */,
+				A13FDC741CCC5F7D00700B23 /* xiaoxiaoleTests */,
+				A13FDC7F1CCC5F7D00700B23 /* xiaoxiaoleUITests */,
+				A13FDC591CCC5F7D00700B23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A13FDC591CCC5F7D00700B23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A13FDC581CCC5F7D00700B23 /* xiaoxiaole.app */,
+				A13FDC711CCC5F7D00700B23 /* xiaoxiaoleTests.xctest */,
+				A13FDC7C1CCC5F7D00700B23 /* xiaoxiaoleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A13FDC5A1CCC5F7D00700B23 /* xiaoxiaole */ = {
+			isa = PBXGroup;
+			children = (
+				A13FDC901CCC60D000700B23 /* resource */,
+				A13FDC5E1CCC5F7D00700B23 /* AppDelegate.h */,
+				A13FDC5F1CCC5F7D00700B23 /* AppDelegate.m */,
+				A13FDC611CCC5F7D00700B23 /* ViewController.h */,
+				A13FDC621CCC5F7D00700B23 /* ViewController.m */,
+				A13FDC641CCC5F7D00700B23 /* Main.storyboard */,
+				A13FDC671CCC5F7D00700B23 /* Assets.xcassets */,
+				A13FDC691CCC5F7D00700B23 /* LaunchScreen.storyboard */,
+				A13FDC6C1CCC5F7D00700B23 /* Info.plist */,
+				A13FDC5B1CCC5F7D00700B23 /* Supporting Files */,
+			);
+			path = xiaoxiaole;
+			sourceTree = "<group>";
+		};
+		A13FDC5B1CCC5F7D00700B23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A13FDC5C1CCC5F7D00700B23 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A13FDC741CCC5F7D00700B23 /* xiaoxiaoleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A13FDC751CCC5F7D00700B23 /* xiaoxiaoleTests.m */,
+				A13FDC771CCC5F7D00700B23 /* Info.plist */,
+			);
+			path = xiaoxiaoleTests;
+			sourceTree = "<group>";
+		};
+		A13FDC7F1CCC5F7D00700B23 /* xiaoxiaoleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A13FDC801CCC5F7D00700B23 /* xiaoxiaoleUITests.m */,
+				A13FDC821CCC5F7D00700B23 /* Info.plist */,
+			);
+			path = xiaoxiaoleUITests;
+			sourceTree = "<group>";
+		};
+		A13FDC901CCC60D000700B23 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				A13FDC8E1CCC60BA00700B23 /* icon */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A13FDC571CCC5F7D00700B23 /* xiaoxiaole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13FDC851CCC5F7D00700B23 /* Build configuration list for PBXNativeTarget "xiaoxiaole" */;
+			buildPhases = (
+				A13FDC541CCC5F7D00700B23 /* Sources */,
+				A13FDC551CCC5F7D00700B23 /* Frameworks */,
+				A13FDC561CCC5F7D00700B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xiaoxiaole;
+			productName = xiaoxiaole;
+			productReference = A13FDC581CCC5F7D00700B23 /* xiaoxiaole.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A13FDC701CCC5F7D00700B23 /* xiaoxiaoleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13FDC881CCC5F7D00700B23 /* Build configuration list for PBXNativeTarget "xiaoxiaoleTests" */;
+			buildPhases = (
+				A13FDC6D1CCC5F7D00700B23 /* Sources */,
+				A13FDC6E1CCC5F7D00700B23 /* Frameworks */,
+				A13FDC6F1CCC5F7D00700B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13FDC731CCC5F7D00700B23 /* PBXTargetDependency */,
+			);
+			name = xiaoxiaoleTests;
+			productName = xiaoxiaoleTests;
+			productReference = A13FDC711CCC5F7D00700B23 /* xiaoxiaoleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A13FDC7B1CCC5F7D00700B23 /* xiaoxiaoleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13FDC8B1CCC5F7D00700B23 /* Build configuration list for PBXNativeTarget "xiaoxiaoleUITests" */;
+			buildPhases = (
+				A13FDC781CCC5F7D00700B23 /* Sources */,
+				A13FDC791CCC5F7D00700B23 /* Frameworks */,
+				A13FDC7A1CCC5F7D00700B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13FDC7E1CCC5F7D00700B23 /* PBXTargetDependency */,
+			);
+			name = xiaoxiaoleUITests;
+			productName = xiaoxiaoleUITests;
+			productReference = A13FDC7C1CCC5F7D00700B23 /* xiaoxiaoleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A13FDC501CCC5F7D00700B23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = blade770;
+				TargetAttributes = {
+					A13FDC571CCC5F7D00700B23 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A13FDC701CCC5F7D00700B23 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A13FDC571CCC5F7D00700B23;
+					};
+					A13FDC7B1CCC5F7D00700B23 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A13FDC571CCC5F7D00700B23;
+					};
+				};
+			};
+			buildConfigurationList = A13FDC531CCC5F7D00700B23 /* Build configuration list for PBXProject "xiaoxiaole" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A13FDC4F1CCC5F7D00700B23;
+			productRefGroup = A13FDC591CCC5F7D00700B23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A13FDC571CCC5F7D00700B23 /* xiaoxiaole */,
+				A13FDC701CCC5F7D00700B23 /* xiaoxiaoleTests */,
+				A13FDC7B1CCC5F7D00700B23 /* xiaoxiaoleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A13FDC561CCC5F7D00700B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13FDC6B1CCC5F7D00700B23 /* LaunchScreen.storyboard in Resources */,
+				A13FDC8F1CCC60BA00700B23 /* icon in Resources */,
+				A13FDC681CCC5F7D00700B23 /* Assets.xcassets in Resources */,
+				A13FDC661CCC5F7D00700B23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13FDC6F1CCC5F7D00700B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13FDC7A1CCC5F7D00700B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A13FDC541CCC5F7D00700B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13FDC631CCC5F7D00700B23 /* ViewController.m in Sources */,
+				A13FDC601CCC5F7D00700B23 /* AppDelegate.m in Sources */,
+				A13FDC5D1CCC5F7D00700B23 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13FDC6D1CCC5F7D00700B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13FDC761CCC5F7D00700B23 /* xiaoxiaoleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13FDC781CCC5F7D00700B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13FDC811CCC5F7D00700B23 /* xiaoxiaoleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A13FDC731CCC5F7D00700B23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13FDC571CCC5F7D00700B23 /* xiaoxiaole */;
+			targetProxy = A13FDC721CCC5F7D00700B23 /* PBXContainerItemProxy */;
+		};
+		A13FDC7E1CCC5F7D00700B23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13FDC571CCC5F7D00700B23 /* xiaoxiaole */;
+			targetProxy = A13FDC7D1CCC5F7D00700B23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A13FDC641CCC5F7D00700B23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13FDC651CCC5F7D00700B23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A13FDC691CCC5F7D00700B23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13FDC6A1CCC5F7D00700B23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A13FDC831CCC5F7D00700B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A13FDC841CCC5F7D00700B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A13FDC861CCC5F7D00700B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = xiaoxiaole/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blade770.Demo01.xiaoxiaole;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A13FDC871CCC5F7D00700B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = xiaoxiaole/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blade770.Demo01.xiaoxiaole;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A13FDC891CCC5F7D00700B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = xiaoxiaoleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blade770.Demo01.xiaoxiaoleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xiaoxiaole.app/xiaoxiaole";
+			};
+			name = Debug;
+		};
+		A13FDC8A1CCC5F7D00700B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = xiaoxiaoleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blade770.Demo01.xiaoxiaoleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xiaoxiaole.app/xiaoxiaole";
+			};
+			name = Release;
+		};
+		A13FDC8C1CCC5F7D00700B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = xiaoxiaoleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blade770.Demo01.xiaoxiaoleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = xiaoxiaole;
+			};
+			name = Debug;
+		};
+		A13FDC8D1CCC5F7D00700B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = xiaoxiaoleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blade770.Demo01.xiaoxiaoleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = xiaoxiaole;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A13FDC531CCC5F7D00700B23 /* Build configuration list for PBXProject "xiaoxiaole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13FDC831CCC5F7D00700B23 /* Debug */,
+				A13FDC841CCC5F7D00700B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13FDC851CCC5F7D00700B23 /* Build configuration list for PBXNativeTarget "xiaoxiaole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13FDC861CCC5F7D00700B23 /* Debug */,
+				A13FDC871CCC5F7D00700B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A13FDC881CCC5F7D00700B23 /* Build configuration list for PBXNativeTarget "xiaoxiaoleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13FDC891CCC5F7D00700B23 /* Debug */,
+				A13FDC8A1CCC5F7D00700B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A13FDC8B1CCC5F7D00700B23 /* Build configuration list for PBXNativeTarget "xiaoxiaoleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13FDC8C1CCC5F7D00700B23 /* Debug */,
+				A13FDC8D1CCC5F7D00700B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A13FDC501CCC5F7D00700B23 /* Project object */;
+}
